@@ -6,12 +6,9 @@
   "author": "zhaojiaming <18686712523@163.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "console.log(111)"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "husky": "^8.0.2"
-  },
-  "hooks": {
-    "pre-commit": "exit 1 # Commit will be aborted"
   }
 }

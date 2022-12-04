@@ -1,0 +1,17 @@
+{
+  "name": "git_exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zero-bingo/git_exercise.git",
+  "author": "zhaojiaming <18686712523@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "console.log(111)"
+  },
+  "devDependencies": {
+    "husky": "^8.0.2"
+  },
+  "hooks": {
+    "pre-commit": "exit 1 # Commit will be aborted"
+  }
+}
